@@ -9,7 +9,7 @@ def is_prime(num):
       n = 2
       while n <= root :
         n += 1
-        if prime % i == 0:
+        if prime % n == 0:
           break
         else:  
           other_prime = prime
