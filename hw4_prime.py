@@ -5,16 +5,18 @@ def is_prime(num):
   elif num == 2:
     return True
   else:
-    for prime in range(2,root):
-      for i in range(2,prime):
+    for prime in range(2,root+1):
+      i = 2
+      while i <= root :
+        i += 1
         if prime % i == 0:
           break
-      prime2 = prime
-      if num % prime2 == 0:
-        return False
+        else:  
+          other_prime = prime
+      if num % other_prime == 0:
         break
-    else:
-      return True 
+      else:
+        return True 
           
 
 num = int(input("Enter a number: "))
