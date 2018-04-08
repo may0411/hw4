@@ -6,9 +6,9 @@ def is_prime(num):
     return True
   else:
     for prime in range(2,root+1):
-      i = 2
-      while i <= root :
-        i += 1
+      n = 2
+      while n <= root :
+        n += 1
         if prime % i == 0:
           break
         else:  
