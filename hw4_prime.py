@@ -17,7 +17,8 @@ def is_prime(num):
         break
       else:
         return True 
-          
+      
+      
 
 num = int(input("Enter a number: "))
 
